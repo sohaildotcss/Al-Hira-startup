@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="select-none">
+    <html lang="en" className="select-none ">
       <body>
         <Navbar />
         {children}

@@ -1,4 +1,4 @@
-const article1 = () => {
+const Article1 = () => {
   return (
     <div>
       <h1 className="text-3xl font-medium text-gray-500">
@@ -42,4 +42,4 @@ const article1 = () => {
   );
 };
 
-export default article1;
+export default Article1;
