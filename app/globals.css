@@ -12,6 +12,7 @@
 body {
   font-family: 'Noori', sans-serif;
   background-color: #efefe8;
+  width: 95vw;
 }
 
 /* Shadcn Styles */
