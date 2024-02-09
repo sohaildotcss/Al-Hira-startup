@@ -1,7 +1,7 @@
 const Article1 = () => {
   return (
     <div>
-      <h1 className="text-3xl font-medium text-gray-500">
+      <h1 className="text-3xl font-medium text-white">
         عرف عام میں جیسے ہم تصوف کہتے ہیں اسی کو قرآن کریم میں تزکیہ اور حدیث
         شریف میں احسان کہا گیا ہے ، یہ بات مکمل طور پر واضح رہے کہ لفظ تصوف
         باوجود اس کے کہ عربی لفظ ہے مگر غیر قرآنی ہے اگر آگے بڑھ کر کہیں تو یہ

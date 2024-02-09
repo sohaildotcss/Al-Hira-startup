@@ -11,8 +11,10 @@
 
 body {
   font-family: 'Noori', sans-serif;
+  background-color: #efefe8;
 }
 
+/* Shadcn Styles */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -85,3 +87,5 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Shadcn Styles */

@@ -1,6 +1,4 @@
 import './globals.css';
-import Navbar from './Navbar';
-import Footer from './Footer';
 
 export const metadata = {
   title: 'Al Hira Islamic Academy',
@@ -9,12 +7,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="select-none ">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+    <html lang="en" className="select-none">
+      <body>{children}</body>
     </html>
   );
 }
