@@ -1,9 +1,10 @@
+import { GeistMono } from 'geist/font/mono';
 import Link from 'next/link';
 import './notFound.css';
 
 export default function NotFound() {
   return (
-    <main className="text-white">
+    <main className="text-white font-geist-mono">
       <h2 className="text-[200px] font-bold">404</h2>
       <p className="text-2xl font-semibold">
         We could not find the page you were looking for.

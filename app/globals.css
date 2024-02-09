@@ -10,9 +10,13 @@
 }
 
 body {
-  font-family: 'Noori', sans-serif;
+  /* font-family: 'Noori', sans-serif; */
   background-color: #efefe8;
   width: 95vw;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 /* Shadcn Styles */
