@@ -1,5 +1,3 @@
-
-
 const textData = {
   en: [
     { id: 1, content: 'Sample English text 1' },
