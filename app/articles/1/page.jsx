@@ -1,7 +1,7 @@
 const Article1 = () => {
   return (
     <main className="w-screen h-full flex flex-col justify-center items-center gap-4 p-4 text-white tracking-wider">
-      <div className="article-header bg-[#57aba4] w-full h-full text-right rounded-xl p-4">
+      <div className="article-header bg-[#57aba4] w-full h-full text-right rounded-3xl p-4 my-20">
         <h1 className="text-4xl"> *دور جدید کا انسان*</h1>
         <p>بقلم ۔۔ عبدالقوی جاوید</p>
         <p>
@@ -11,7 +11,7 @@ const Article1 = () => {
       </div>
       <div
         className="article-content bg-[#354555] 
-      w-full h-full rounded-xl p-4 "
+      w-full h-full rounded-[60px] p-4 mb-20"
       >
         <h1 className="text-3xl ">
           انسان کے جسم کے ایک ایک عضو کو دیکھئے اور دوسرے جانداروں یا بے جانوں

@@ -1,4 +1,4 @@
-// pages/api/text.js
+
 
 const textData = {
   en: [

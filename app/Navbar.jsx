@@ -8,7 +8,7 @@ export default function Navbar() {
         <Button variant="outline">Home</Button>
       </Link>
       <Link href="/articles/1">
-        <Button className="">Article 1</Button>
+        <Button className="font-medium text-xl" >Article 1</Button>
       </Link>
       <Link href="/articles/2">
         <Button className="">Article 2</Button>
