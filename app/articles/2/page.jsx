@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import dbData from '/languages.json'; // Import data directly
+import dbData from '/languages.json'; 
 
 const Article2 = () => {
   const [language, setLanguage] = useState('en');

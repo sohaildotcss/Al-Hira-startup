@@ -1,6 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-import { GeistSans } from 'geist/font/sans';
+// import { GeistSans } from 'geist/font/sans';
 
 const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ur" className="select-none">
+    <html lang="en" className="select-none">
       <body className={inter.className}>{children}</body>
     </html>
   );
